@@ -1,5 +1,5 @@
       // Initial array of gifs
-      var topics = ["Super Man", "Wonder Woman", "The Flash", "Spiderman", "Antman", "The Hulk", "Captain America", 
+      var topics = ["Superman", "Wonder Woman", "The Flash", "Spiderman", "Antman", "The Hulk", "Captain America", 
       	"Aquaman", "Harley Quinn", "Lex Luthor", "Gorilla Grodd",
       	"deadpool", "Wolverine"];
       var responseCopy;
@@ -8,7 +8,7 @@
       function displayGifyInfo() {
 
         var gif = $(this).attr("data-name");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?api_key=f7ea57d3c6bb4d069046900b92c8f30d&q=" + gif +"&limit=10&rating=pg-13";
+        var queryURL = "http://api.giphy.com/v1/gifs/search?api_key=f7ea57d3c6bb4d069046900b92c8f30d&q=" + gif +"&limit=10";
         
         $.ajax({
           url: queryURL,
@@ -21,7 +21,7 @@
         	var gifP = $('<p class="rating-info">');
         	var gifImage = $('<img class="gif-image">');
         	gifImage.attr("src",response.data[i].images.fixed_height_still.url);        	     
-        	gifP.text('Rating: ' + rating);
+        	gifP.text('Rated: ' + rating);
         	gifDiv.append(gifP);
         	gifDiv.append(gifImage);
         	$("#gif-display").append(gifDiv);

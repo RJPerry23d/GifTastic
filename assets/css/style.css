@@ -8,9 +8,20 @@ body {
 	margin-bottom: 0px;
 }
 
+div#Masthead {
+	background: url("../images/group_cover.jpg");
+}
+
 h1.text-center {
 	color: #ffffff;
 	font-weight: bolder;
+	/*background: rgba(255, 255, 255, 0.5);*/
+	text-shadow:
+	-3px -3px 0 #000,
+	3px -3px 0 #000,
+	-3px 3px 0 #000,
+	3px 3px 0 #000;
+
 }
 
 div#buttons-view {
@@ -20,10 +31,10 @@ div#buttons-view {
 
 
 div#gif-display {
-	background: url("../images/group_cover.jpg");
+	background: url("../images/marvel_team.jpg");
 	border: 2px solid white;
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 .item {
 	background: rgba(255, 255, 255, 0.5);
