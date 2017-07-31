@@ -1,5 +1,7 @@
       // Initial array of gifs
-      var topics = ["Super Man", "Wonder Woman", "The Flash", "Spiderman", "Antman", "The Hulk", "Captain America", "Aquaman", "Harley Quinn", "Lex Luthor", "Gorilla Grodd"];
+      var topics = ["Super Man", "Wonder Woman", "The Flash", "Spiderman", "Antman", "The Hulk", "Captain America", 
+      	"Aquaman", "Harley Quinn", "Lex Luthor", "Gorilla Grodd",
+      	"deadpool", "Wolverine"];
       var responseCopy;
       var gifToggle = false;
       // Function for dumping the JSON content for each button into the div

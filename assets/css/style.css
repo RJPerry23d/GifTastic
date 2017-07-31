@@ -18,10 +18,12 @@ div#buttons-view {
 	border: 2px solid white;
 }
 
+
 div#gif-display {
 	background: url("../images/group_cover.jpg");
 	border: 2px solid white;
 	margin-top: 20px;
+	margin-bottom: 20px;
 }
 .item {
 	background: rgba(255, 255, 255, 0.5);
