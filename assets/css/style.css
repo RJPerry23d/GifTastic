@@ -27,7 +27,19 @@ div#gif-display {
 }
 .item {
 	background: rgba(255, 255, 255, 0.5);
+	margin: auto;
+    width: 100%;
+
 }
+
+img.gif-image {
+    /*margin: auto;
+    width: 100%;*/
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+
 p.rating-info {
 	font-weight: bolder;
 	font-size: 24px;
