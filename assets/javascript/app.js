@@ -8,7 +8,7 @@
       function displayGifyInfo() {
 
         var gif = $(this).attr("data-name");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?api_key=f7ea57d3c6bb4d069046900b92c8f30d&q=" + gif +"&limit=10";
+        var queryURL = "http://api.giphy.com/v1/gifs/search?api_key=f7ea57d3c6bb4d069046900b92c8f30d&q=" + gif +"&limit=10&rating=pg";
         
         $.ajax({
           url: queryURL,
@@ -65,6 +65,9 @@
         
         // This line grabs the input from the textbox
         var gify = $("#gify-input").val().trim();
+        if (gify != "") {
+
+
 
         // Adding the gif from the textbox to our array
         topics.push(gify);
@@ -72,6 +75,7 @@
 
         // Calling renderButtons which handles the processing of our gif array
         renderButtons();
+      }
       });
       	//swapGif changes the state of my gif animation when i click on the image
       	//it starts in still and animates with click and toggles state on each click
