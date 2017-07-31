@@ -15,7 +15,6 @@ div#Masthead {
 h1.text-center {
 	color: #ffffff;
 	font-weight: bolder;
-	/*background: rgba(255, 255, 255, 0.5);*/
 	text-shadow:
 	-3px -3px 0 #000,
 	3px -3px 0 #000,
@@ -44,11 +43,9 @@ div#gif-display {
 }
 
 img.gif-image {
-    /*margin: auto;
-    width: 100%;*/
     display: block;
     margin: auto;
-    width: 70%;
+    width: 50%;
 }
 
 p.rating-info {
