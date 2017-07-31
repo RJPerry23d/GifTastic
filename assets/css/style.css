@@ -1,3 +1,47 @@
-*{
-	border: 1px solid black;
+body {
+	background-color: #000000;
+}
+
+.jumbotron.col-lg-12.col-md-12.col-sm-12 {
+	background-color: blue;
+	border: 2px solid white;
+	margin-bottom: 0px;
+}
+
+h1.text-center {
+	color: #ffffff;
+	font-weight: bolder;
+}
+
+div#buttons-view {
+	background-color: red;
+	border: 2px solid white;
+}
+
+div#gif-display {
+	background: url("../images/group_cover.jpg");
+	border: 2px solid white;
+	margin-top: 20px;
+}
+.item {
+	background: rgba(255, 255, 255, 0.5);
+}
+p.rating-info {
+	font-weight: bolder;
+	font-size: 24px;
+	margin-left: 20px;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: blue;
+    border-color: #46b8da;
+    margin: 5px;
+}
+
+.btn {
+    font-size: 20px;
+}
+input#gify-input {
+    margin-top: 20px;
 }

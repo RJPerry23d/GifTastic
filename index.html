@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Giftastic</title>
+	<title>Giftastic Heroes and Villians</title>
 	<!-- Added link to the jQuery Library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Bootstrap is used to make game look nicer -->
@@ -12,27 +12,37 @@
 </head>
 <body>
 	<!-- Bootstrap Container will hold everything -->
-    <div class="container col-md-12 col-sm-12 col-sm-12">
+    <div class="container center-block col-lg-12 col-md-12 col-sm-12 col-xs-12">
     	<div class="row">
+            <div class="jumbotron center-block col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h1 class="text-center">Giftastic Heroes and Villians</h1>              
+            </div>
             <!-- Rendered Buttons will get Dumped Here  -->
-            <div id="buttons-view" class="col-lg-12 col-md-12 col-sm-12">
-            	
-            </div>                         		
-        </div>
-        <div class="row">
-            <!-- Movies will Get Dumped Dere -->
-            <div id="gif-display" class="col-lg-8 col-md-8 col-sm-8">
-            	
-            </div>                       		
-            <div id="gify-search" class="col-lg-4 col-md-4 col-sm-4">
-                <form id="gify-form">
-                  <label for="gify-input">Add a Super Hero here</label>
+            <div id="buttons-view" class="jumbotron center-block col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">                
+            </div> 
+            <div id="gify-search" class="center-block col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                <form class="center-block" id="gify-form">
+                  <label for="gify-input"></label>
                   <input type="text" id="gify-input"><br>
 
                   <!-- Button triggers new gif to be added -->
-                  <input id="add-gify" type="submit" value="Add a Hero">
+                  <input class="btn btn-info" id="add-gify" type="submit" value="Add a Hero">
                 </form>
-            </div>                         		
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">                
+            </div>                        		
+        </div>
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+            </div>
+            <!-- Movies will Get Dumped Dere -->
+            <div id="gif-display" class="center-block col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                <img src="assets/images/group_cover.jpg">            	
+            </div>
+
+                                     		
         </div>        	
     </div>
 	<script src="assets/javascript/app.js"></script>
